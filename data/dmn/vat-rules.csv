@@ -1,0 +1,20 @@
+VAT Rules,,,,,
+U,Inputs,,,Outputs,Notes
+,Artist Country Code,Artist Has VAT Code,Type,VAT,
+,String,Boolean,String,String,
+,IE,FALSE,Regular,txr_1KyyyhKcJ2eI208SN27Hwy43,23
+,UK,FALSE,Regular,txr_1KyywpKcJ2eI208SUPdaMyM7,20
+,"AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE",FALSE,Regular,txr_1KyyyhKcJ2eI208SN27Hwy43,23: Inside the EU
+,,FALSE,Regular,txr_1MigU1KcJ2eI208SEOAYUeuP,0: Anywhere outside the EU
+,IE,TRUE,Regular,txr_1KyyyhKcJ2eI208SN27Hwy43,23
+,UK,TRUE,Regular,txr_1KyywpKcJ2eI208SUPdaMyM7,20
+,"AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE",TRUE,Regular,txr_1MigU1KcJ2eI208SEOAYUeuP,0: Inside the EU
+,,TRUE,Regular,txr_1MigU1KcJ2eI208SEOAYUeuP,0: Anywhere outside the EU
+,IE,FALSE,Shipping,txr_1KyyyhKcJ2eI208SN27Hwy43,23
+,UK,FALSE,Shipping,txr_1KyywpKcJ2eI208SUPdaMyM7,20
+,"AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE",FALSE,Shipping,txr_1KyyyhKcJ2eI208SN27Hwy43,23: Inside the EU
+,,FALSE,Shipping,txr_1MigU1KcJ2eI208SEOAYUeuP,0: Anywhere outside the EU
+,IE,TRUE,Shipping,txr_1KyyyhKcJ2eI208SN27Hwy43,23
+,UK,TRUE,Shipping,txr_1KyywpKcJ2eI208SUPdaMyM7,20
+,"AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE",TRUE,Shipping,txr_1MigU1KcJ2eI208SEOAYUeuP,0: Inside the EU
+,,TRUE,Shipping,txr_1MigU1KcJ2eI208SEOAYUeuP,0: Anywhere outside the EU

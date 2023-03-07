@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist-eslint",
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "include": [
+    "./types/**/*",
+    "./src/**/*",
+    "./test/**/*",
+  ]
+}

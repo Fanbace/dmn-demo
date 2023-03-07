@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    "skipLibCheck": true,
+    "incremental": true,
+    "paths": {
+      "#repo/*": [
+        "./src/infra/repository/*"
+      ],
+      "#infra/*": [
+        "./src/infra/*"
+      ],
+      "#domain/*": [
+        "./src/domain/*"
+      ],
+      // "#util/*": [
+      //   "./src/util/*"
+      // ],
+      "#types/*": [
+        "./types/*"
+      ]
+    }
+  },
+  "include": [
+    "./types/**/*",
+    "./src/**/*",
+//    "./__mocks__/**/*",
+  ],
+  "exclude": [
+    "./src/tests/**/*"
+  ]
+}
